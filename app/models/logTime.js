@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-module.exports = mongoose.model('LogTimer', {
+module.exports = mongoose.model('LogTime', {
       date: { type: Date, default: Date.now }
     , start: Date
     , startMorningBreake: Date
